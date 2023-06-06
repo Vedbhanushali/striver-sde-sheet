@@ -28,3 +28,30 @@ void sort012(int *nums, int n)
         }
 }
 ```
+
+## Find Duplicate in Array
+
+approach in this we will swap values to their index and we before swaping we will check whther already an value is present or not 
+
+```
+#include <bits/stdc++.h>
+
+int findDuplicate(vector<int> &nums, int n){
+	// Write your code here.
+	int temp = 0;
+	for(int i=0;i<nums.size();i++){
+            int index = nums[0];
+            if(nums[index]==index){
+                return index;
+            } else {
+                // swap(nums[0],nums[index]);
+				temp = nums[0];
+				nums[0] = nums[index];
+				nums[index] = temp;
+            }
+            
+        }
+        return -1;
+}
+
+```
