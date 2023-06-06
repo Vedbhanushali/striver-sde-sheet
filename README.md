@@ -5,6 +5,8 @@ Set Matrix Zeros  - https://www.codingninjas.com/codestudio/problems/set-matrix-
 
 Pascal Triangle - https://www.codingninjas.com/codestudio/problems/pascal-s-triangle_8230805?challengeSlug=striver-sde-challenge
 
+Sort an array of 0's, 1's and 2's
+https://www.codingninjas.com/codestudio/problems/sort-0-1-2_8230695?challengeSlug=striver-sde-challenge
 
 ## LinkedList - 
 
