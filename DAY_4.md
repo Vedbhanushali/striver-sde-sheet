@@ -88,3 +88,58 @@ vector<int> majorityElementII(vector<int> &nums)
         return ans;
 }
 ```
+
+## Rotate Linked List
+
+https://www.codingninjas.com/codestudio/problems/rotate-linked-list_8230752?challengeSlug=striver-sde-challenge
+
+Approach  
+find the lenght of linked list  
+
+modulo k % n to get in range  
+
+for rotating logic array 1 2 5 6 7 , k = 2  
+answer is 6 7 | 1 2 5  
+that is n - k that is 5 -2 =3 nodes after and k nodes from last are switched places.  
+
+```
+/**
+ * Definition for singly-linked list.
+ * class Node {
+ * public:
+ *     int data;
+ *     Node *next;
+ *     Node() : data(0), next(nullptr) {}
+ *     Node(int x) : data(x), next(nullptr) {}
+ *     Node(int x, Node *next) : data(x), next(next) {}
+ * };
+ */
+
+Node *rotate(Node *head, int k) {
+     if(head == NULL || k==0) return head;
+        //finding length of ll
+        Node* temp = head;
+        Node* lastNode = head;
+        int n = 0;
+        while(temp!=NULL){
+            if(temp->next == NULL) lastNode = temp;
+            temp = temp->next;
+            n++;
+        }
+        if(n == 1) return head;
+   
+        k = k % n;
+        if(k == 0) return head;
+        k = n - k - 1;
+        temp = head;
+        
+        while(k--){
+            // prev = temp;
+            temp = temp->next;
+        }
+        Node* t1 = temp->next;
+        temp->next = NULL;
+        lastNode->next = head;
+        return t1;
+}
+``

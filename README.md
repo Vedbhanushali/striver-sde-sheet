@@ -19,7 +19,11 @@ https://www.codingninjas.com/codestudio/problems/majority-element-ii_8230738?cha
 
 ## LinkedList - 
 
-Reverse a LinkedList - https://www.codingninjas.com/codestudio/problems/reverse-linked-list_8230724?challengeSlug=striver-sde-challenge
+Reverse a LinkedList - 
+https://www.codingninjas.com/codestudio/problems/reverse-linked-list_8230724?challengeSlug=striver-sde-challenge
 
-Middle Of Linked List - https://www.codingninjas.com/codestudio/problems/middle-of-linked-list_8230764?challengeSlug=striver-sde-challenge
+Middle Of Linked List - 
+https://www.codingninjas.com/codestudio/problems/middle-of-linked-list_8230764?challengeSlug=striver-sde-challenge
 
+Rotate LinkedList -
+https://www.codingninjas.com/codestudio/problems/rotate-linked-list_8230752?challengeSlug=striver-sde-challenge
