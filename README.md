@@ -17,7 +17,8 @@ https://www.codingninjas.com/codestudio/problems/day-6-majority-element_8230731?
 Majority element II
 https://www.codingninjas.com/codestudio/problems/majority-element-ii_8230738?challengeSlug=striver-sde-challenge
 
-
+2SUM / PAIR SUM
+https://www.codingninjas.com/codestudio/problems/pair-sum_8230699?challengeSlug=striver-sde-challenge
 
 ## LinkedList - 
 
