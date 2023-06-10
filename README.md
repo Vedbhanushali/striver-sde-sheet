@@ -15,6 +15,12 @@
 
 [2SUM / PAIR SUM](DAY_5.md)
 
+## STRINGS
+
+[Longest Palindromic Substring](DAY_6.md)
+
+[Reverse a word in string](DAY_6.md)
+
 ## LinkedList - 
 
 [Reverse a LinkedList](DAY_2.md) 
