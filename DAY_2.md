@@ -4,6 +4,12 @@
 
 https://www.codingninjas.com/codestudio/problems/pascal-s-triangle_8230805?challengeSlug=striver-sde-challenge
 
+### Approach - 
+formula to caluculate value of element is  
+**start c = 1**  
+**and c = c*(i-j)/(j);**   
+**remeber this.** 
+
 ```
 #include <bits/stdc++.h>
 
@@ -33,6 +39,9 @@ vector<vector<long long int>> printPascal(int n)
 ## Reverse a LinkedList - 
 
 https://www.codingninjas.com/codestudio/problems/reverse-linked-list_8230724?challengeSlug=striver-sde-challenge
+
+### Approach 
+will need prev and after pointer , will move such way that curr will point back to prev and will move all three pointers forward such a way that prev points to curr , curr points to after , and after points to next of curr node.
 
 ```
 #include <bits/stdc++.h>
@@ -76,6 +85,10 @@ LinkedListNode<int> *reverseLinkedList(LinkedListNode<int> *head)
 ## Middle Of Linked List - 
 
 https://www.codingninjas.com/codestudio/problems/middle-of-linked-list_8230764?challengeSlug=striver-sde-challenge&leftPanelTab=0
+
+
+## Appproach
+will use two pointer approach one slow pointer and second fast pointer , fast pointer moves two nodes and slow pointer moves one node when fast pointer reaches the last node slow pointer would be pointing to the middle of the node.
 
 ```
 /*

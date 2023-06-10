@@ -4,6 +4,11 @@
 
 https://www.codingninjas.com/codestudio/problems/set-matrix-zeros_8230862?challengeSlug=striver-sde-challenge
 
+### Approach
+will maintain row and column array/set to maintain the index of row and columns which are to created zero  
+next iteration make all row and column from row and colummn zero.  
+TC - O(n^2)  
+SC - O(n) (two array of row and colummn of n size)  
 ### CODE  
 
 ```

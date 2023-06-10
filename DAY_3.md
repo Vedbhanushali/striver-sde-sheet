@@ -4,9 +4,14 @@
 
 https://www.codingninjas.com/codestudio/problems/sort-0-1-2_8230695?challengeSlug=striver-sde-challenge
 sol -
-three pointer inplace sorting
 
-Code -
+### Approach
+three pointer inplace sorting
+will use three pointers low from which all elements left of it would be zero, mid pointer which have all left elements 1 mean if one encountered move forward, and high pointer where all elements right to it would be 2.  
+we will only move mid pointer , if mid element is 1 do nothing move mid,  
+if mid element is zero swap element with low pointer and move low++,  
+if mid element is two swap element with high pointer and move high--;
+### Code -
 ```
 #include <bits/stdc++.h> 
 void sort012(int *nums, int n)
