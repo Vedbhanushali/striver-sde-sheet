@@ -15,6 +15,12 @@
 
 [2SUM / PAIR SUM](DAY_5.md)
 
+[Next permutation](DAY_7.md)
+
+[Maximum subarray sum / Kadane's algorithm](DAY_7.md)
+
+[Stock Buy and Sell](DAY_7.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
