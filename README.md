@@ -21,6 +21,8 @@
 
 [Stock Buy and Sell](DAY_7.md)
 
+[Rotate Image](DAY_7.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
