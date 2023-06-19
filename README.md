@@ -23,6 +23,14 @@
 
 [Rotate Image](DAY_7.md)
 
+[Merge Intervals](DAY_8.md)
+
+[find the duplicate in an array of n integers](DAY_8.md)
+
+[Find the Duplicate Number](DAY_8.md)
+
+[FourSum](DAY_8.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
