@@ -31,6 +31,14 @@
 
 [FourSum](DAY_8.md)
 
+[Missing and repeating numbers](DAY_9.md)
+
+[Count Inversion](DAY_9.md)
+
+[Search in 2D matrix](DAY_9.md)
+
+[Pow(x,n)](DAY_9.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
