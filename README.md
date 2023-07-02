@@ -39,6 +39,14 @@
 
 [Pow(x,n)](DAY_9.md)
 
+[Unique paths](DAY_10.md)
+
+[Reverse Pairs ](DAY_10.md)
+
+[Longest Consecutive Sequence](DAY_10.md)
+
+[Longest Subarray with zero sum](DAY_10.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
