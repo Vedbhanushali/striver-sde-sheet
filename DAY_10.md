@@ -238,3 +238,43 @@ int LongestSubsetWithZeroSum(vector < int > arr) {
   return ans;
 }
 ```
+
+## Longest Substring without repeat
+
+https://www.codingninjas.com/studio/problems/longest-substring-without-repeating-characters_8230684?challengeSlug=striver-sde-challenge
+
+### Approach
+
+sliding window + hashing  (storing character and its index)  
+will increase the window till all characters are distinct and when repeating character is found move the start pointer next to last occurence of that same alphabet and update the new index of that character  
+there is one thing to note that if in hashMap that character is found but it is before start index then we will not consider it as repeating or part of the new/current subarray.
+
+### Code
+
+```
+#include <bits/stdc++.h> 
+int uniqueSubstrings(string s)
+{
+    int start = 0;
+        int end = 0;
+        int n = s.length();
+        int count = 0;
+        unordered_map<char,int> hashMap;
+        while(start < n && end < n){
+            char ch = s[end];
+            if(hashMap.find(ch)!=hashMap.end() && hashMap[ch]>=start){
+                // mean found
+                    start = hashMap[ch]+1;
+                    hashMap[ch] = end;
+                    end++;
+            } else {
+                //not found
+                // hashMap.insert(ch);
+                hashMap[ch] = end;
+                count = max(count,end-start+1);
+                end++;
+            }
+        }
+        return count;
+}
+```

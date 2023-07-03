@@ -47,6 +47,8 @@
 
 [Longest Subarray with zero sum](DAY_10.md)
 
+[Longest Substring without repeat](DAY_10.md)
+
 ## STRINGS
 
 [Longest Palindromic Substring](DAY_6.md)
